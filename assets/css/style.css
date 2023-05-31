@@ -805,39 +805,46 @@ border-radius: 50px;
                   font-size: .9375rem;
                   line-height: 1.375rem; } }
 
-#curriculum{
-  margin: auto;
+#curriculumContainer {
+  display: flex;
+}
+
+.curriculum {
+  margin: 0 auto;
   padding: 2%;
-  width: 60%;
-  height:60% ;
+  width: 40%;
+  height: 60%;
   background: rgba(43, 43, 43, 0.4);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 40px;
 }
-#descargarDiv{
+
+.descargarDiv {
   display: flex;
   justify-content: right;
   width: 100%;
 }
-#button_download{
+
+#button_download {
   margin-bottom: 2%;
   padding: 2%;
   background-color: #000;
   color: #db3eb1;
-  border: 6px solid #db3eb1;
-  border-radius:15px;
-  letter-spacing:5px;
+  border: 3px solid #db3eb1;
+  text-align: center;
+  border-radius: 15px;
   cursor: pointer;
   font-weight: bold;
-  filter: drop-shadow(0 0 5px #db3eb1) drop-shadow(0 0 0px #db3eb1) contrast(2) brightness(2);
-  transition: .5s;
+  filter: drop-shadow(0 0 3px #db3eb1) drop-shadow(0 0 0px #db3eb1) contrast(2) brightness(2);
+  transition: 0.5s;
 }
-#button_download:hover{
+
+#button_download:hover {
   color: black;
   background-color: #db3eb1;
-  filter: drop-shadow(0 0 10px #db3eb1) contrast(2) brightness(2);
+  filter: drop-shadow(0 0 6px #db3eb1) contrast(2) brightness(2);
 }
 #portfolio {
   background: url(https://44.media.tumblr.com/cca4f06484b447c0687f0325af5b38c9/428a8db1dc8ae92f-87/s1280x1920_f1/bafabc5bd061065545ee55fbbe6461b4eaef9b31.gif);
